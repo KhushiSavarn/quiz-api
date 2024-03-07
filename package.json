@@ -1,0 +1,25 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "The Quiz API in Gujarati",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhushiSavarn/quiz-api.git"
+  },
+  "keywords": [
+    "Quiz",
+    "API",
+    "NodeJS",
+    "MySQL"
+  ],
+  "author": "Khushi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhushiSavarn/quiz-api/issues"
+  },
+  "homepage": "https://github.com/KhushiSavarn/quiz-api#readme"
+}
