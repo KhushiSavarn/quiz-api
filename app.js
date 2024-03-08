@@ -5,8 +5,9 @@ const app = express();
 
 // Create a connection pool with promise support
 const pool = mysql.createPool({
-  host: "localhost",
+  host: "quiz.cn2wy2wesuba.ap-south-1.rds.amazonaws.com",
   user: "root",
+  password:"rootdatabase",
   database: "quiz",
   waitForConnections: true,
   connectionLimit: 10,
@@ -30,7 +31,7 @@ app.get("/questions", async (req, res) => {
     }
 
     // Print the random question to the console
-    console.log(results[0]);
+    // console.log(results[0]);
 
     // Release the connection back to the pool
     connection.release();
