@@ -5,7 +5,7 @@ const app = express();
 
 // Create a connection pool with promise support
 const pool = mysql.createPool({
-  host: "quiz.cn2wy2wesuba.ap-south-1.rds.amazonaws.com",
+  host: "localhost",
   user: "root",
   password:"rootdatabase",
   database: "quiz",
